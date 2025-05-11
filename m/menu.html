@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CIELO Y MAR - MENU</title>
+    <link rel="stylesheet" href="menu.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="container">
+            <a href="#" class="logo">CIELO Y MAR</a>
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <label for="nav-toggle" class="nav-toggle-label" aria-label="Abrir menú">
+                <span class="hamburger"></span>
+            </label>
+            <nav class="site-nav">
+                <ul>
+                    <li><a href="#recomendaciones">Recomendaciones</a></li>
+                    <li><a href="#seccion1">Productos Populares</a></li>
+                    <li><a href="#seccion2">Nuestro Menu</a></li>
+                    <li><a href="#carrito">
+                        Cuenta <span class="carrito-precio">$0.000</span>
+                    </a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="recomendaciones" class="hero">
+            <div class="carousel-container">
+                <div class="carousel-slide">
+                    <img src="platos/Arroz con Camarones.jpg" alt= "Recomendación 1">
+                </div>
+                <div class="carousel-slide">
+                    <img src="platos/ceviche.jpg" alt="Recomendación 2">
+                </div>
+                <div class="carousel-slide">
+                    <img src="platos/agua de coco.jpg" alt= "Recomendación 3">
+                </div>
+            </div>
+        </section>
+
+
+
+        <section id="seccion1" class="product-section">
+            <h2>Productos Populares</h2>
+            <div class="product-item">
+                <div class="product-image">
+                    <img src="platos/index.jpg" alt="Producto 1">
+                </div>
+            
+                <div class="product-description">
+                    <h3>Calamares apanados.</h3>
+                    <p>Anillos de calamar rebozados y fritos hasta quedar crujientes, acompañados de salsa tártara. <br>$15.999</p>
+                </div>
+                <div class="product-add">
+                    <button class="add-to-cart" data-id="4" data-name="Calamares apanados." data-price="16.000">+</button>
+                </div>
+            </div>
+            <div class="product-item">
+                <div class="product-image">
+                    <img src="platos/Cazuela de mariscos.jpg" alt="Producto 2">
+                </div>
+                <div class="product-description">
+                    <h3>Cazuela de mariscos.</h3>
+                    <p>Sopa espesa y sabrosa con una variedad de mariscos frescos (camarones, calamares, mejillones, pescado). <br> $38.999</p>
+                </div>
+                <div class="product-add">
+                    <button class="add-to-cart" data-id="6" data-name="Cazuela de mariscos." data-price="39.000">+</button>
+                </div>
+            </div>
+            </section>
+
+        <section id="seccion2" class="product-section">
+            <h2>Entradas</h2>
+            <div class="product-item">
+                <div class="product-image">
+                    <img src="platos/sopadepescado.jpg" alt="Producto 3">
+                </div>
+                <div class="product-description">
+                    <h3>Sopa de pescado.</h3>
+                    <p>Descripción: Una deliciosa sopa con trozos de pescado fresco y vegetales. <br> $12.500</p>
+                </div>
+                <div class="product-add">
+                    <button class="add-to-cart" data-id="1" data-name="Sopa de pescado." data-price="12.500">+</button>
+                </div>
+            </div>
+
+            <div class="product-item">
+                <div class="product-image">
+                    <img src="platos/ceviche.jpg" alt="Producto 4">
+                </div>
+            <div class="product-description">
+                <h3>Ceviche de camarones.</h3>
+                <p>DCamarones frescos marinados en limón con cebolla roja, cilantro y un toque picante.<br> $17.999</p>
+            </div>
+            <div class="product-add">
+                <button class="add-to-cart" data-id="2" data-name="Ceviche de camarones." data-price="18.000">+</button>
+            </div>
+        </div>
+
+        <div class="product-item">
+            <div class="product-image">
+                <img src="platos/nachos.jpg" alt="Producto 5">
+            </div>
+            <div class="product-description">
+                <h3>Nachos Playeros.</h3>
+                <p>Totopos de maíz con queso fundido, frijoles refritos, pico de gallo y guacamole. <br> $15.500</p>
+            </div>
+            <div class="product-add">
+                <button class="add-to-cart" data-id="3" data-name="Nachos Playeros." data-price="15.500.00">+</button>
+            </div>
+        </div>
+
+        <div class="product-item">
+            <div class="product-image">
+                <img src="platos/pulpo.jpg" alt="Producto 5">
+            </div>
+            <div class="product-description">
+                <h3>Calamares apanados.</h3>
+                <p>Anillos de calamar rebozados y fritos hasta quedar crujientes, acompañados de salsa tártara. <br> $12.999</p>
+            </div>
+            <div class="product-add">
+                <button class="add-to-cart" data-id="4" data-name="Calamares apanados." data-price="13.000">+</button>
+            </div>
+        </div>
+        
+            </section>
+
+
+
+            <section id="seccion3" class="product-section">
+                <h2>Platos Fuertes</h2>
+                <div class="product-item">
+                    <div class="product-image">
+                        <img src="platos/Arroz con Camarones.jpg" alt="Producto 3">
+                    </div>
+                    <div class="product-description">
+                        <h3>Arroz con camarones.</h3>
+                        <p>Delicioso arroz cocido con camarones frescos, verduras y especias. <br> $27.999</p>
+                    </div>
+                    <div class="product-add">
+                        <button class="add-to-cart" data-id="5" data-name="Arroz con camarones" data-price="28.000">+</button>
+                    </div>
+                </div>
+    
+                <div class="product-item">
+                    <div class="product-image">
+                        <img src="platos/Cazuela de mariscos.jpg" alt="Producto 4">
+                    </div>
+                <div class="product-description">
+                    <h3>Cazuela de mariscos.</h3>
+                    <p>Camarones frescos marinados en limón con cebolla roja, cilantro y un toque picante.<br> $37.999</p>
+                </div>
+                <div class="product-add">
+                    <button class="add-to-cart" data-id="6" data-name="Cazuela de mariscos." data-price="38.000">+</button>
+                </div>
+            </div>
+    
+            <div class="product-item">
+                <div class="product-image">
+                    <img src="platos/Langosta al ajillo.jpg" alt="Producto 5">
+                </div>
+                <div class="product-description">
+                    <h3>Langosta al ajillo.</h3>
+                    <p>Langosta fresca cocinada en una deliciosa salsa de ajo y mantequilla. <br> $59.999</p>
+                </div>
+                <div class="product-add">
+                    <button class="add-to-cart" data-id="7" data-name="Langosta al ajillo." data-price="60.000">+</button>
+                </div>
+            </div>
+    
+            <div class="product-item">
+                <div class="product-image">
+                    <img src="platos/Pasta a la marinera.jpg" alt="Producto 5">
+                </div>
+                <div class="product-description">
+                    <h3>Pasta marinera.</h3>
+                    <p>Pasta larga con salsa de tomate fresca y variedad de mariscos salteados. <br> $26.999</p>
+                </div>
+                <div class="product-add">
+                    <button class="add-to-cart" data-id="8" data-name="Pasta marinera." data-price="27.000">+</button>
+                </div>
+            </div>
+            
+                </section>
+
+                <section id="seccion4" class="product-section">
+                    <h2>Postres</h2>
+                    <div class="product-item">
+                        <div class="product-image">
+                            <img src="platos/tarta.jpg" alt="Producto 3">
+                        </div>
+                        <div class="product-description">
+                            <h3>Tarta de coco.</h3>
+                            <p>Deliciosa tarta con una base crujiente y un relleno cremoso de coco. <br> $8.999</p>
+                        </div>
+                        <div class="product-add">
+                            <button class="add-to-cart" data-id="9" data-name="Tarta de coco." data-price="9.000">+</button>
+                        </div>
+                    </div>
+        
+                    <div class="product-item">
+                        <div class="product-image">
+                            <img src="platos/esalada de frutas.jpg" alt="Producto 21">
+                        </div>
+                    <div class="product-description">
+                        <h3>Ensalada de frutas tropicales.</h3>
+                        <p>Refrescante mezcla de frutas frescas de la región (mango, piña, sandía, melón).<br> $7.999</p>
+                    </div>
+                    <div class="product-add">
+                        <button class="add-to-cart" data-id="10" data-name="Ensalada de frutas tropicales" data-price="8.000">+</button>
+                    </div>
+                </div>
+        
+                <div class="product-item">
+                    <div class="product-image">
+                        <img src="platos/Cheesecake de Mango.jpg" alt="Producto 5">
+                    </div>
+                    <div class="product-description">
+                        <h3>Cheesecake de mango.</h3>
+                        <p>Cremoso cheesecake con un toque de mango fresco.<br> $9.500</p>
+                    </div>
+                    <div class="product-add">
+                        <button class="add-to-cart" data-id="11" data-name="Cheesecake de mango." data-price="9.500">+</button>
+                    </div>
+                </div>
+        
+                <div class="product-item">
+                    <div class="product-image">
+                        <img src="platos/brownie.jpg" alt="Producto 5">
+                    </div>
+                    <div class="product-description">
+                        <h3>Brownie con helado.</h3>
+                        <p>Porción de brownie de chocolate tibio acompañado de una bola de helado de vainilla. <br> $9.999</p>
+                    </div>
+                    <div class="product-add">
+                        <button class="add-to-cart" data-id="12" data-name="Brownie con helado." data-price="10.000">+</button>
+                    </div>
+                </div>
+                
+                    </section>
+
+                    <section id="seccion5" class="product-section">
+                        <h2>Bebidas</h2>
+                        <div class="product-item">
+                            <div class="product-image">
+                                <img src="platos/limonada.jpg" alt="Producto 3">
+                            </div>
+                            <div class="product-description">
+                                <h3>Limonada natural</h3>
+                                <p>Refrescante limonada hecha con limones frescos. <br> $3.999</p>
+                            </div>
+                            <div class="product-add">
+                                <button class="add-to-cart" data-id="13" data-name="Limonada natural" data-price="4.000">+</button>
+                            </div>
+                        </div>
+            
+                        <div class="product-item">
+                            <div class="product-image">
+                                <img src="platos/agua de coco.jpg" alt="Producto 21">
+                            </div>
+                        <div class="product-description">
+                            <h3>Agua de coco.</h3>
+                            <p>Agua natural y refrescante directamente del coco.<br> $5.999</p>
+                        </div>
+                        <div class="product-add">
+                            <button class="add-to-cart" data-id="14" data-name="Agua de coco." data-price="6.000">+</button>
+                        </div>
+                    </div>
+            
+                    <div class="product-item">
+                        <div class="product-image">
+                            <img src="platos/cvz.jpg" alt="Producto 5">
+                        </div>
+                        <div class="product-description">
+                            <h3>Cerveza.</h3>
+                            <p>Selección de cervezas locales.<br> $3.500</p>
+                        </div>
+                        <div class="product-add">
+                            <button class="add-to-cart" data-id="15" data-name="Cerveza." data-price="3.500">+</button>
+                        </div>
+                    </div>
+            
+                    <div class="product-item">
+                        <div class="product-image">
+                            <img src="platos/Mojito.jpg" alt="Producto 5">
+                        </div>
+                        <div class="product-description">
+                            <h3>Mojito.</h3>
+                            <p>Ron blanco, hierbabuena fresca, azúcar, zumo de limón y soda. <br> $18.999</p>
+                        </div>
+                        <div class="product-add">
+                            <button class="add-to-cart" data-id="16" data-name="Mojito." data-price="19.000">+</button>
+                        </div>
+                    </div>
+
+                    <div class="product-item">
+                        <div class="product-image">
+                            <img src="platos/Pina Colada Mocktail.jpg" alt="Producto 5">
+                        </div>
+                        <div class="product-description">
+                            <h3>Piña Colada.</h3>
+                            <p>Ron blanco, crema de coco y zumo de piña, decorado con piña y cereza. <br> $19.999</p>
+                        </div>
+                        <div class="product-add">
+                            <button class="add-to-cart" data-id="17" data-name="Piña Colada." data-price="20.000">+</button>
+                        </div>
+                    </div>
+
+                    <div class="product-item">
+                        <div class="product-image">
+                            <img src="platos/aq.jpg" alt="Producto 5">
+                        </div>
+                        <div class="product-description">
+                            <h3>Daiquirí.</h3>
+                            <p>Ron blanco, zumo de limón, azúcar y la fruta de tu elección, frappé. <br> $17.999</p>
+                        </div>
+                        <div class="product-add">
+                            <button class="add-to-cart" data-id="18" data-name="Daiquirí." data-price="18.000">+</button>
+                        </div>
+                    </div>
+                    
+                        </section>
+
+        <div id="carrito" class="cart-modal">
+            <div class="cart-content">
+                <h2>Carrito de Compras</h2>
+                <ul id="cart-items">
+                    </ul>
+                <p class="cart-total">Total estimado: <span id="total-price">$0.000</span></p>
+                <button id="close-cart">Cerrar Carrito</button>
+            </div>
+        </div>
+
+    </main>
+
+    <script>
+        // Carrusel de imágenes (controlado por JavaScript)
+        const carouselContainer = document.querySelector('.carousel-container');
+        const slides = document.querySelectorAll('.carousel-slide');
+        let currentIndex = 0;
+
+        function nextSlide() {
+            currentIndex = (currentIndex + 1) % slides.length;
+            updateCarousel();
+        }
+
+        function updateCarousel() {
+            carouselContainer.style.transform = `translateX(-${currentIndex * 100}%)`;
+        }
+
+        setInterval(nextSlide, 7000); 
+        // Cambia cada 7 segundos
+        // Simulación de la funcionalidad del carrito (sin persistencia real)
+        const addToCartButtons = document.querySelectorAll('.add-to-cart');
+        const cartItemsList = document.getElementById('cart-items');
+        const totalPriceElement = document.getElementById('total-price');
+        const carritoPrecioHeader = document.querySelector('.carrito-precio');
+        const carritoModal = document.getElementById('carrito');
+        const carritoLink = document.querySelector('.site-nav a[href="#carrito"]');
+        const closeCartButton = document.getElementById('close-cart');
+        let cart = [];
+
+        function updateCartDisplay() {
+            cartItemsList.innerHTML = '';
+            let total = 0;
+            cart.forEach(item => {
+                const listItem = document.createElement('li');
+                listItem.innerHTML = `
+                    ${item.name} - $${item.price.toFixed(3)}
+                    <button class="remove-from-cart" data-id="${item.id}">Eliminar</button>
+                `;
+                cartItemsList.appendChild(listItem);
+                total += item.price;
+            });
+            totalPriceElement.textContent = `$${total.toFixed(3)}`;
+            carritoPrecioHeader.textContent = `$${total.toFixed(3)}`;
+
+            // Actualizar listeners para los botones de eliminar
+            const removeFromCartButtons = document.querySelectorAll('.remove-from-cart');
+            removeFromCartButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    const idToRemove = parseInt(this.dataset.id);
+                    cart = cart.filter(item => item.id !== idToRemove);
+                    updateCartDisplay();
+                });
+            });
+        }
+
+        addToCartButtons.forEach(button => {
+            button.addEventListener('click', function() {
+                const id = parseInt(this.dataset.id);
+                const name = this.dataset.name;
+                const price = parseFloat(this.dataset.price);
+                cart.push({ id, name, price });
+                updateCartDisplay();
+            });
+        });
+
+        carritoLink.addEventListener('click', (e) => {
+            e.preventDefault();
+            carritoModal.style.display = 'block';
+        });
+
+        closeCartButton.addEventListener('click', () => {
+            carritoModal.style.display = 'none';
+        });
+
+        
+        </script>
+    
+
+</body>
+</html>
